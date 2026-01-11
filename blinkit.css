@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    display: flex;
+    border-top:  1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    gap:40px;
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 24px 30px;
+    border-right: 1px solid #ccc;
+}
+.headeraddress{
+    padding:20px 20px;
+
+}
+.headeraddress h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+
+
+}
+.headeraddress p{
+    font-size: 14px;
+}
+.searchBox{
+    flex-grow: 1;
+    display: flex;
+    border-radius: 15px;
+    background-color: #F8F8F8;
+    border:1px solid  #F8F8F8;
+}
+.searchBox button{
+    padding: 15px;
+    border:none;
+    background-color: transparent;
+    
+
+}
+.searchBox input{
+    flex-grow: 1;
+    border:none;
+    background-color: transparent;
+
+    
+}
+.searchBox input:focus{
+    outline: none;
+}
+.headerbtn{
+    display: flex;
+    margin-right: 40px;
+    gap:40px;
+}
+
+.headerbtn button{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    border:none;
+    
+}
+.headerbtn button:last-child{
+    background-color: green;
+    color: white;
+}
+.bannersection{
+    max-width: 1280px;
+    margin: auto;
+}
+.bannersection img{
+    width:100%;
+}
+.orderBanner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+.orderBannerItems{
+    flex-basis: 27%;
+    margin:1%;
+}
+
+.orderBannerItems img{
+    width:100%;
+    
+}
+.categorysection{
+    max-width:1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.catogriesItems{
+    flex-basis: 10%;
+
+}
+.catogriesItems img{
+    width:100%;
+}
+.productsection{
+    max-width: 1280px;
+    margin: auto;
+    padding:30px 0px 0px;
+}
+.headglow{
+    font-size: 17px;
+    color:rgb(28, 28, 28);
+    
+}
+
+
+.productrow{
+    width:100%;
+    margin:30px 0px 0px;
+    display: flex;
+    gap:2%;
+    flex-wrap: wrap;
+}
+
+.productItem{
+    flex-basis:15%;
+    box-shadow: 0px 0px 2px #ccc;
+    border:1px solid #ccc;
+    border-radius: 15px;
+
+}
+.productimg{
+    text-align: center;
+    padding: 10px;
+}
+.productimg p{
+    background-color: #f8f8f8;
+    display:flex;
+    width:60px;
+    gap:5px;
+    padding: 2px;
+    align-items: center;
+    font-size: 12px;
+    text-align: left;
+}
+.productcontent{
+    padding:15px;
+    padding-top:0px;
+
+}
+.productcontent h3{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.productcontent p{
+    font-size: 14px;
+    color:#636363;
+}
+.btnprice{
+    display:flex;
+    margin-top:15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.btnprice button{
+    border: 1px solid green;
+    padding:5px 15px;
+    border-radius: 10px;
+    background-color: #f7fff9;
+
+}
+footer{
+    padding:40px 0px 0px 0px;
+}
+.footermid{
+    max-width:1280px;
+    margin: auto;
+}
+.footerrow1{
+    width:100%;
+    gap:40px;
+
+    display:flex;
+
+}
+.footerleftrow1{
+    flex-basis: 30%;
+}
+.footerleftrow1 h3{
+    margin-bottom: 20px;
+}
+.footerrightrow2{
+    flex-basis: 70%;
+    
+}
+.usefull-links{
+    display: flex;
+}
+.usefull-links ul{
+    flex-basis: 30%;
+
+    
+}
+.usefull-links ul li a{
+   font-size: 14px;
+   margin-bottom:15px;
+    display: block;
+    color: #636363;
+
+}
+.categoriestag{
+    display:flex;
+    align-items: center;
+    gap:15px;
+
+}
+.categoriestag a{
+color: rgba(12, 131, 31)}
+
+.categorieslink{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+}
+.categorieslink ul{
+    flex-basis: 33%;
+}
+
+.categorieslink ul li a{
+    font-size: 14px;
+    color: #636363;
+    margin-bottom: 15px;
+    display: block;
+}
+.footerbottom{
+    max-width: 1280px;
+    flex-wrap: wrap;
+    margin: auto;
+    gap:20px;
+    display: flex;
+    padding:20px 0px;
+    text-align: center;
+    align-items: center;
+
+
+}
+.Downloadapp{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    
+    
+}
+
+.footerbottom p{
+    color:#636363;
+    font-size: 12.4px;
+    font-weight: 540;
+    flex-basis: 33%;
+}
+.flex{
+    width:92px;
+    height:30px;
+    
+}
+.Downloadapp p{
+    font-size: 13px;
+    color:#666666;
+    font-weight: 700;
+}
+
+
+.socialmedia{
+    display:flex;
+    flex-basis: 30%;
+    gap:15px;
+}
+.para{
+    max-width:1280px;
+    margin:auto;
+    padding:20px;
+    font-size: 14px;
+    color:#636363;
+}
+.imgapp{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}

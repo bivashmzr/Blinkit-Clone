@@ -1,0 +1,129 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    header{
+        flex-direction: column;
+        align-items:stretch;
+        padding:10px;
+        gap:15px;
+
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    .logo{
+        padding:10px;
+    }
+    .headeraddress{
+        padding:10px;
+    }
+    .headeraddress p{
+        font-size: 12px;
+    }
+
+    .headeraddress h3{
+        font-size: 14px;
+    }
+
+    .headerbtn{
+        position:fixed;
+        width:100%;
+        background-color: aliceblue;
+        margin-right:0px;
+        justify-content: center;
+        bottom:0px;
+
+
+    }
+    .bannersection{
+        display:none;
+    }
+    .orderBanner{
+        padding: 10px;;
+        flex-direction: column;
+        
+    }
+    .catogriesItems{
+    flex-basis: 25%;
+
+}
+.productsection{
+    padding:30px 10px;
+}
+
+.productItem{
+    flex-basis: 48%;
+    margin-bottom: 15px;
+}
+.footerrow1{
+    flex-direction: column;
+    padding:10px;
+
+}
+footer{
+    padding-top:0px;
+}
+
+.categorieslink{
+    gap:10px;
+}
+.categorieslink ul{
+    flex-basis: 48%;
+}
+ .categorieslink ul:last-child{
+    display:none;
+}
+.footerbottom{
+    flex-direction: column;
+    justify-content: center;
+}
+.para{
+    margin-bottom: 70px;
+}
+.Downloadapp{
+    flex-direction: column;
+    align-items: center;
+}
+.socialmedia{
+    flex-basis: 40%;
+
+}
+}
+@media only screen and (min-width:575px) and (max-width:1020px) {
+
+.logo{
+    display:none;
+}
+.headeraddress{
+    width:265px;    
+}
+.searchBox{
+    display:none;
+}
+.headerbtn{
+    gap:10px;
+    margin-left: auto;
+}
+.productItem:last-child{
+    display: none;
+}
+.productrow{
+    padding-left: 2%;
+}
+.productItem{
+   flex-basis: 18%; 
+    
+}
+.headglow{
+    margin-left: 10px;
+}
+.footerleftrow1{
+    padding-left: 15px;
+}
+.footerbottom{
+    justify-content: center;
+    flex-direction: column;
+    margin-block: 10px;
+}
+.para{
+    margin-bottom:15px;
+}
+}
